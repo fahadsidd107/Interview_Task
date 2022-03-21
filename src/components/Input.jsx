@@ -35,7 +35,7 @@ else{
 
   return (
     <div>
-      <form onSubmit={add}>
+      <form onSubmit={add} className='form'>
         <input
           type="text"
           placeholder="Enter your task"
